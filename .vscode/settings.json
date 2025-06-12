@@ -1,0 +1,40 @@
+{
+    // ファイル設定
+    "files.autoSave": "off", // 自動保存(off)
+    "files.insertFinalNewline": true, // ファイルの末尾に自動で改行を追加
+    // エディタ設定
+    "editor.tabSize": 2, // インデントを2スペースに統一
+    "editor.formatOnSave": true, // ファイルを保存するたびに自動でコードを整形
+    // TypeScript設定
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.associations": {
+        "*.js": "javascriptreact",
+        "*.jsx": "javascriptreact",
+        "*.ts": "typescriptreact",
+        "*.tsx": "typescriptreact"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    // yaml設定
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.formatOnSave": true
+    },
+    // json設定
+    "prettier.tabWidth": 2,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.formatOnSave": true
+    },
+    // Docker設定
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-containers",
+        "editor.formatOnSave": true
+    },
+    // Markdown Preview Enhanced設定
+    "markdown-preview-enhanced.plantumlJarPath": "/usr/local/bin/plantuml.jar",
+    "markdown-preview-enhanced.enableScriptExecution": true
+}
