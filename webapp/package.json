@@ -1,0 +1,23 @@
+{
+  "name": "webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "WATCHPACK_POLLING=true next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "container": "docker build -t nextjs-on-lwa . && docker run --rm -d -p 7000:7000 --name nextjs nextjs-on-lwa"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.3.3"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19"
+  }
+}
