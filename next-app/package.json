@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "container": "docker build -t nextjs-on-lwa . && docker run --rm -d -p 7000:7000 --name nextjs nextjs-on-lwa"
+    "container": "docker build -t nextjs-on-lwa . && docker run --rm -d -p 3000:3000 --name nextjs nextjs-on-lwa"
   },
   "dependencies": {
     "react": "^19.0.0",
